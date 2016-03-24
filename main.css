@@ -1,0 +1,259 @@
+@charset "utf-8";
+.nav a {
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+  position:relative;
+  top: 25px;
+} 
+
+.nav {
+   height: 100px;
+   background-repeat: no-repeat;
+   background-position:left;
+   background-size:auto;
+}
+
+.jumbotron {
+	height: 650px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("C:/Users/smriti/Desktop/Web Development/Website coded/Mandala/jumbotron.jpg");
+}
+
+.jumbotron .container {
+  position: relative;
+  top:350px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 32px;  
+  font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.banner {
+	position:relative;
+	top:15px;
+    /*background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;*/
+}
+
+.banner h2 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  /*font:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;*/
+  font-size: 26px;  
+  position:relative;
+  top: 150px;
+  left: 20px;
+  width: 100%;
+}
+
+.about {
+	/*background-color: #efefef;*/
+	
+}
+
+ h1 {
+	 
+	 font-family: 'Oswald', sans-serif;
+}
+
+.about .container {
+	position:relative;
+	top: 50px;	
+	/*background-color: #efefef;*/
+}
+
+.menu {
+	/*background-color: #efefef;*/
+	
+}
+
+.menu .container {
+	position:relative;
+	top: 60px;	
+	/*background-color: #efefef;*/
+}
+
+.gallery {
+	position:relative;
+	top: 80px;	
+	/*background-color: #efefef;*/
+}
+
+.gallery .container {
+	height: 550px;
+	/*background-color: #efefef;*/
+}
+
+.slider {
+	position:relative;
+	left:170px;
+	top:40px;
+}
+
+/* Carousel */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  
+}
+
+.slide {
+  background: transparent center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slide-copy h1 {
+  color: #363636;  
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin-top: 105px;
+  margin-bottom: 0px;
+}
+
+.slide-copy h2 {
+  color: #b7b7b7;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin: 5px;
+}
+
+.slide-copy p {
+  color: #959595;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+
+.slide-img {
+  text-align: right;
+}
+
+/* Slide feature */
+
+.slide-feature {
+  text-align: center;
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ac.png');
+  height: 470px;
+}
+
+.slide-feature img {
+  margin-top: 112px;
+  margin-bottom: 28px;
+}
+
+.slide-feature a {
+  display: block;
+  color: #6fc5e0;
+  
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 20px;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides p {
+    margin-bottom: 13px;
+    font-size: 15px;
+}
+
+.footer {
+    height: 120px;
+	background-image:url("C:/Users/smriti/Desktop/Web Development/Website coded/Mandala/yellow.jpg");
+	width:100%;
+}
+
+
+.footer h3 {
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 16px;
+  font-weight:bold;
+  color: #fff;
+  position:relative;
+  top:60px;
+  text-align: center;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+/* CSS Document */
+
