@@ -24,7 +24,7 @@
 	height: 650px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("C:/Users/smriti/Desktop/Web Development/Website coded/Mandala/jumbotron.jpg");
+	background-image: url("Mandala/jumbotron.jpg");
 }
 
 .jumbotron .container {
@@ -237,7 +237,7 @@
 
 .footer {
     height: 120px;
-	background-image:url("C:/Users/smriti/Desktop/Web Development/Website coded/Mandala/yellow.jpg");
+	background-image:url("Mandala/yellow.jpg");
 	width:100%;
 }
 
